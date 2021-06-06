@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>地球</title>
+    
+    <style>
+        html{overflow: hidden;}
+        body { margin: 0;}
+        #stats {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 地国 -->
+    <div id="earth_container"></div> <!-- 容器 -->
+    
+    <script src="./js/jquery.js"></script>
+    <script src="./js/threejs/three.min.js"></script> <!-- 核心js -->
+    <script src="./js/threejs/Detector.js"></script> <!-- webGL浏览器支持检测 -->
+    <script src="./js/threejs/stats.js"></script> <!-- 性能测试 -->
+    <!-- 地球控制 -->
+    <script src="./js/threejs/orbitcontrols.js"></script>
+    <script src="./js/threejs/OBJLoader.js"></script>
+    <script src="./js/threejs/MTLLoader.js"></script>
+
+    <script src="js/globe.js"></script>
+</body>
+</html>
